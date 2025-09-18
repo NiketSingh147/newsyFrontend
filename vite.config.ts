@@ -7,8 +7,8 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        // target: 'https://vooshnewsbackend.onrender.com',
-        target: 'http://localhost:5000',
+        target: 'https://newsybackend-s0ti.onrender.com',
+        // target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false, // dev-only: allow proxying even if cert oddities occur
         rewrite: (path) => path.replace(/^\/api/, ''), // keep if your backend routes are at root
