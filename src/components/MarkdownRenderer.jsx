@@ -129,7 +129,7 @@ export default function MarkdownRenderer({ text = "", showMeta = true, timestamp
                 <span style={{ fontSize: 12 }}>{domainFromUrl(links[0])}</span>
               </div>
             ) : (
-              <div style={{ fontSize: 12, color: "#9aa1a6" }}>VooshNews</div>
+              <div style={{ fontSize: 12, color: "#9aa1a6" }}>Newsy</div>
             )}
           </div>
         </div>
