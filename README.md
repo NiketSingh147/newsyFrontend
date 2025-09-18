@@ -1,4 +1,4 @@
-# Voosh News — RAG Chatbot on News Articles
+# Newsy — RAG Chatbot on News Articles
 
 Live Demo: [voosh-news-frontend.vercel.app](https://voosh-news-frontend.vercel.app/)
 

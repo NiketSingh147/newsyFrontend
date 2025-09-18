@@ -288,7 +288,7 @@ export default function ChatApp() {
             style={{ minWidth: 260 }}
           >
             <div className="news-meta" style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <span className="news-source">{currentFeatured?.source ?? "VooshNews"}</span>
+              <span className="news-source">{currentFeatured?.source ?? "Newsy"}</span>
               <span className="news-dot" aria-hidden>•</span>
               <span className="news-time">{currentFeatured?.published ?? ""}</span>
             </div>
@@ -375,7 +375,7 @@ export default function ChatApp() {
           <div className="hero">
             <div className="hero-inner">
               <div className="hello">Hello Reader</div>
-              <div className="welcome">Welcome to VooshNews</div>
+              <div className="welcome">Welcome to Newsy</div>
               <div className="source">Verified reporting · Documented sources · Clean, focused reading</div>
 
               <div
